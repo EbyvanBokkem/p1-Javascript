@@ -1,4 +1,9 @@
 const myName = "Eby";
-const myAge = 16;
+let myAge = 16;
 const diploma = true;
-const 
+let passed;
+
+document.write(myName)
+document.write(myAge)
+document.write(diploma)
+
