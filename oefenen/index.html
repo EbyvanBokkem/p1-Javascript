@@ -7,16 +7,41 @@
     <title>Document</title>
   </head>
   <body>
-    
-    
+    <h1 id="title">ik ben een titel</h1>
+    <button onclick="color_change_red()">Clickie click</button>
+    <button onclick="color_change_black()">Clickie click</button>
+
+    <script>
+      console.log(document.getElementById(title));
+
+      function color_change_red() {
+        let title = "title";
+        document.getElementById(title).style.color = "red";
+        document.getElementById(title).style.fontWeight = "normal";
+        document.getElementById(title).style.fontSize = "3rem";
+      }
+      function color_change_black() {
+        let title = "title";
+        document.getElementById(title).style.color = "black";
+        document.getElementById(title).style.fontWeight = "normal";
+        document.getElementById(title).style.fontSize = "3rem";
+      }
+    </script>
+    <p id="paragraph">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aspernatur,
+      ab architecto ea fugiat perferendis porro cupiditate a nemo molestiae
+      eligendi adipisci illo. Doloremque beatae nisi maxime incidunt omnis
+      magni!
+    </p>
+    <button on click="text_change()">verander</button>
+<script>
+  let text = document.getElementById("paragraph");
+  function text_change(){
+    text.innerText = "ja man"
+  }
+</script>
     
     
     <script src="app.js"></script>
-    
-  
-
-
-
-
-</body>
+  </body>
 </html>

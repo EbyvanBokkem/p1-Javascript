@@ -30,5 +30,11 @@ let answer3 = num1 / num2;
 
 console.log(answer3)
 
+let text = document.getElementById("text");
+function change() {
+    text.style.backgroundColor = "red"
+}
+
+
 
 
