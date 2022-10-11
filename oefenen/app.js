@@ -35,11 +35,21 @@
 //     text.style.backgroundColor = "red"
 // }
 
-function changeColor(){
-    console.log("de functie werkt?")
+// function changeColor(){
+//     console.log("de functie werkt?")
+// }
+// changeColor()
+
+let a = 9;
+let b = 10;
+
+if(a <8){
+ console.log("ik ben waar");
+} else if(a > 8) {
+    console.log
 }
-changeColor()
-
-
+else {
+    console.log("ik ben niet waar")
+}
 
 
